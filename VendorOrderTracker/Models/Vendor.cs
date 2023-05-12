@@ -20,10 +20,16 @@ namespace VendorOrderTracker.Models
       Orders = new List<Order> {};
     }
 
-    // public static void ClearAll()
-    // {
-    //   _instances.Clear();
-    // }
+    public static void ClearAll()
+    {
+      _instances.Clear();
+    }
+
+    public static List<Vendor> GetAll()
+    {
+      return _instances;
+    }
+
 
 
 
