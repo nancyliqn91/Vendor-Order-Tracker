@@ -63,8 +63,8 @@ namespace VendorOrderTracker.Controllers
     [HttpPost("/vendors/{vendorId}/delete")]
     public ActionResult Delete(int vendorId)
     {
-      Vendor foundVendor = Vendor.Find(vendorId);    
-      foundVendor.Orders.ClearAll();
+      Vendor foundVendor = Vendor.Find(vendorId); 
+      foundVendor.Orders.Clear();
       return View();
     }
 

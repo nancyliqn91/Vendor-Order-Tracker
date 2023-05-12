@@ -11,6 +11,10 @@
 <h3>Description: @Model["vendor"].Description.</h3>
 <br>
 
+<form action="/vendors/@Model["vendor"].Id/orders/@Model["order"].Id/edit" method="get">
+<button class="btn btn-info" type="submit" name="button">Edit</button>
+</form>
+
 <a href='/vendors/@Model["vendor"].Id/orders/new'>Add another order</a>
 <p><a href='/vendors'>Return to vendors list</a></p>
 <p><a href='/'>Back Home</a></p>
