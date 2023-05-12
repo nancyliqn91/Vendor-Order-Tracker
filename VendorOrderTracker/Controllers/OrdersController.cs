@@ -15,14 +15,16 @@ namespace VendorOrderTracker.Controllers
       return View(vendor);
     }
 
-    [HttpPost("/vendors")]
-    public ActionResult Create(string vendorName, string vendorDescription)
+    [HttpGet("/vendors/{vendorId}/orders/{orderId}")]
+    public ActionResult Show(int vendorId, int orderId)
     {
-      Vendor newVendor = new Vendor(vendorName, vendorDescription);
-      return RedirectToAction("Index");
+      Order order = Order.Find(orderId);
+      Vendor vendor = Vendor.Find(vendorId);
+      Dictionary<string, object> model = new Dictionary<string, object>();
+      model.Add("order", order);
+      model.Add("vendor", vendor);
+      return View(model);
     }
-
-
 
   }
 }
