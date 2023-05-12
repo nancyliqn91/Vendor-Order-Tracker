@@ -33,6 +33,15 @@ namespace VendorOrderTracker.Tests
       CollectionAssert.AreEqual(newList, result);
     }
 
+    [TestMethod]
+    public void Find_ReturnInstanceOfVendor_Vendor()
+    {
+      Vendor newVendor = new Vendor("name","bread");
+      Vendor result = Vendor.Find(1);
+      Assert.AreEqual(newVendor, result);
+    }
+
+
   }
 }
 
