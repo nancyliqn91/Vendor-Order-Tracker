@@ -1,6 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using VendorOrderTracker.Models;
 using System;
+using System.Collections.Generic;
 
 namespace VendorOrderTracker.Tests
 {
@@ -9,7 +10,7 @@ namespace VendorOrderTracker.Tests
   {
     public void Dispose()
     {
-      // Order.ClearAll();
+      Order.ClearAll();
     }
 
     [TestMethod]
@@ -20,26 +21,13 @@ namespace VendorOrderTracker.Tests
     }
 
     [TestMethod]
-    public void GetAll_ReturnsOrders_OrderList()
+    public void ClearAll_ClearInstanceOfOrder_()
     {
-      //Arrange
-      Order newOrder1 = new Order("title","bread", 40, 10);
-      Order newOrder2 = new Order("title","pastry", 45, 9);
-      List<Order> newOrder = new List<Order> { newOrder1, newOrder2 };
-      //Act
-      List<Order> result = Order.GetAll();
-      //Assert
-      CollectionAssert.AreEqual(newOrder, result);
+      Order newOrder = new Order("title","bread", 40, 10);
+      List<Order> expected = new List<Order> {};
+      Order.ClearAll();
+      CollectionAssert.AreEqual(expected, Order.GetAll());
     }
-
-    // [TestMethod]
-    // public void ClearAll_ClearInstanceOfOrder_()
-    // {
-    //   Order newOrder = new Order("title","bread", 40, 10);
-    //   List<Order> expected = new List<Order> {};
-    //   Order.ClearAll();
-    //   CollectionAssert.AreEqual(expected, newOrder.ClearAll());
-    // }
 
 
   }
