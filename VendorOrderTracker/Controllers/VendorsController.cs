@@ -53,5 +53,19 @@ namespace VendorOrderTracker.Controllers
       return View("Show", model);
     }
 
+    [HttpPost("/vendors/delete")]
+    public ActionResult DeleteAll()
+    {
+      Vendor.ClearAll();
+      return View();
+    }
+
+    [HttpPost("/vendors/delete")]
+    public ActionResult Delete()
+    {
+      Vendor.ClearAll();
+      return View();
+    }
+
   }
 }
