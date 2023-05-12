@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "076Nc1epZlA5lIW4EMBWoEpwES05Vk3sdEHryIw37GM=",
+  "Source": "VendorOrderTracker",
+  "BasePath": "_content/VendorOrderTracker",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "VendorOrderTracker/wwwroot",
+      "Source": "VendorOrderTracker",
+      "ContentRoot": "/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/wwwroot/",
+      "BasePath": "_content/VendorOrderTracker",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/wwwroot/css/styles.css",
+      "SourceId": "VendorOrderTracker",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/wwwroot/",
+      "BasePath": "_content/VendorOrderTracker",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    }
+  ]
+}

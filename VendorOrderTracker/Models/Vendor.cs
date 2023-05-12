@@ -11,10 +11,10 @@ namespace VendorOrderTracker.Models
     public int Id { get; }
     public List<Order> Orders { get; set; }
 
-    public Vendor(string vendorName, string orderDescription)
+    public Vendor(string vendorName, string vendorDescription)
     {
       Name = vendorName;
-      Description = orderDescription;
+      Description = vendorDescription;
       _instances.Add(this);
       Id = _instances.Count;
       Orders = new List<Order> {};
@@ -39,9 +39,6 @@ namespace VendorOrderTracker.Models
     {
       Orders.Add(order);
     }
-
-
-
 
   }
 }
