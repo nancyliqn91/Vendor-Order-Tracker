@@ -8,16 +8,20 @@
 
 <h3>Title: @Model["order"].Title, Description: @Model["order"].Description, Price: @Model["order"].Price, Amount: @Model["order"].Amount.</h3>
 
-<form action="/vendors/@Model.Id/orders/@Model["order"].Id/update" method="post">
+<form action="/vendors/@Model["vendor"].Id/orders/@Model["order"].Id/update" method="post">
+
   <input type="hidden" name="vendorId" value="@Model["vendor"].Id" />
   <input type="hidden" name="orderId" value="@Model["order"].Id" />
 
   <label for="orderTitle">Order Title</label>
-  <input id="orderTitle" name="orderTitle" type="text" value="@Model["order"].Title>
+  <input id="orderTitle" name="orderTitle" type="text" value="@Model["order"].Title >
+
   <label for="orderDescription">Order Description</label>
   <input id="orderDescription" name="orderDescription" type="text" value="@Model["order"].Description>
+
   <label for="orderPrice">Order Price($)</label>
   <input id="orderPrice" name="orderPrice" type=int>
+  
   <label for="orderAmount">Order Amount</label>
   <input id="orderAmount" name="orderAmount" type=int>
 

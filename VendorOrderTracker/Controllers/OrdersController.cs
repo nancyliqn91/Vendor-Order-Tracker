@@ -45,7 +45,7 @@ namespace VendorOrderTracker.Controllers
       order.Description = orderDescription;
       order.Price = orderPrice;
       order.Amount = orderAmount;
-      return RedirectToAction("Details", "Orders", new { vendorId = vendorId, orderId = orderId });
+      return RedirectToAction("Edit",new { vendorId = vendorId, orderId = orderId });
     }
 
   }
