@@ -37,5 +37,16 @@ namespace VendorOrderTracker.Controllers
       return View(model);
     }
 
+    [HttpPost("/vendors/{vendorId}/orders/{orderId}/update")]
+    public ActionResult Update(int vendorId, int orderId,string orderTitle, string orderDescription, int orderPrice, int orderAmount)
+    {
+      Order order = Order.Find(orderId);
+      order.Title = orderTitle;
+      order.Description = orderDescription;
+      order.Price = orderPrice;
+      order.Amount = orderAmount;
+      return RedirectToAction("Details", "Orders", new { vendorId = vendorId, orderId = orderId });
+    }
+
   }
 }
