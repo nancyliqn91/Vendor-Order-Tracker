@@ -60,10 +60,11 @@ namespace VendorOrderTracker.Controllers
       return View();
     }
 
-    [HttpPost("/vendors/delete")]
-    public ActionResult Delete()
+    [HttpPost("/vendors/{vendorId}/delete")]
+    public ActionResult Delete(int vendorId)
     {
-      Vendor.ClearAll();
+      Vendor foundVendor = Vendor.Find(vendorId);    
+      foundVendor.Orders.ClearAll();
       return View();
     }
 
