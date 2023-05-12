@@ -1,6 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName.Models;
+using VendorOrderTracker.Models;
 using System;
+using System.Collections.Generic;
 
 namespace VendorOrderTracker.Tests
 {
@@ -11,12 +12,6 @@ namespace VendorOrderTracker.Tests
     {
       Vendor.ClearAll();
     }
-    // Test methods go here
-    // [TestMethod]
-    // public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
-    // {
-    //   Assert.AreEqual(ExpectedResult, CodeToTest);
-    // }
 
     [TestMethod]
     public void VendorConstructor_CreatesInstanceOfVendor_Vendor()
@@ -25,24 +20,19 @@ namespace VendorOrderTracker.Tests
       Assert.AreEqual(typeof(Vendor), newVendor.GetType());
     }
 
+    [TestMethod]
+    public void GetAll_ReturnsAllVendorObjects_VendorList()
+    {
+      //Arrange
+      Vendor newVendor1 = new Vendor("Suzie's Cafe", "order 10bread");
+      Vendor newVendor2 = new Vendor("Suzie's Cafe", "order 10 croissants");
+      List<Vendor> newList = new List<Vendor> { newVendor1, newVendor2 };
+      //Act
+      List<Vendor> result = Vendor.GetAll();
+      //Assert
+      CollectionAssert.AreEqual(newList, result);
+    }
 
   }
 }
 
-      // [TestMethod]
-      // public void AddItem_AssociatesItemWithCategory_ItemList()
-      // {
-      //   //Arrange
-      //   string description = "Walk the dog.";
-      //   Item newItem = new Item(description);
-      //   List<Item> newList = new List<Item> { newItem };
-      //   string name = "Work";
-      //   Category newCategory = new Category(name);
-      //   newCategory.AddItem(newItem);
-
-      //   //Act
-      //   List<Item> result = newCategory.Items;
-
-      //   //Assert
-      //   CollectionAssert.AreEqual(newList, result);
-      // }
