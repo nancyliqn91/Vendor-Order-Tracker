@@ -29,6 +29,14 @@ namespace VendorOrderTracker.Tests
       CollectionAssert.AreEqual(expected, Order.GetAll());
     }
 
+    [TestMethod]
+    public void Find_ReturnInstanceOfOrder_Order()
+    {
+      Order newOrder = new Order("title","bread", 40, 10);
+      Order result = Order.Find(1);
+      Assert.AreEqual(newOrder, result);
+    }
+
 
   }
 }
