@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/VendorOrderTracker.csproj": {}
+    "/Users/qianli/Desktop/projects/friday-projects/VendorOrderTracker.Solution/VendorOrderTracker/VendorOrderTracker.csproj": {}
   },
   "projects": {
-    "/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/VendorOrderTracker.csproj": {
+    "/Users/qianli/Desktop/projects/friday-projects/VendorOrderTracker.Solution/VendorOrderTracker/VendorOrderTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/VendorOrderTracker.csproj",
+        "projectUniqueName": "/Users/qianli/Desktop/projects/friday-projects/VendorOrderTracker.Solution/VendorOrderTracker/VendorOrderTracker.csproj",
         "projectName": "VendorOrderTracker",
-        "projectPath": "/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/VendorOrderTracker.csproj",
+        "projectPath": "/Users/qianli/Desktop/projects/friday-projects/VendorOrderTracker.Solution/VendorOrderTracker/VendorOrderTracker.csproj",
         "packagesPath": "/Users/qianli/.nuget/packages/",
-        "outputPath": "/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/obj/",
+        "outputPath": "/Users/qianli/Desktop/projects/friday-projects/VendorOrderTracker.Solution/VendorOrderTracker/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/qianli/.nuget/NuGet/NuGet.Config"

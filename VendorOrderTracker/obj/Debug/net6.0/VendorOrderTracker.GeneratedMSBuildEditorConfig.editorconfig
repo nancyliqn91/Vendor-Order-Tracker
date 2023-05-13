@@ -8,53 +8,49 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VendorOrderTracker
 build_property.RootNamespace = VendorOrderTracker
-build_property.ProjectDir = /Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/
+build_property.ProjectDir = /Users/qianli/Desktop/projects/friday-projects/VendorOrderTracker.Solution/VendorOrderTracker/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker
+build_property.MSBuildProjectDirectory = /Users/qianli/Desktop/projects/friday-projects/VendorOrderTracker.Solution/VendorOrderTracker
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/Views/Home/Index.cshtml]
+[/Users/qianli/Desktop/projects/friday-projects/VendorOrderTracker.Solution/VendorOrderTracker/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/Views/Orders/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL0VkaXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/Views/Orders/New.cshtml]
+[/Users/qianli/Desktop/projects/friday-projects/VendorOrderTracker.Solution/VendorOrderTracker/Views/Orders/New.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL05ldy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/Views/Orders/Show.cshtml]
+[/Users/qianli/Desktop/projects/friday-projects/VendorOrderTracker.Solution/VendorOrderTracker/Views/Orders/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvT3JkZXJzL1Nob3cuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/Views/Shared/Footer.cshtml]
+[/Users/qianli/Desktop/projects/friday-projects/VendorOrderTracker.Solution/VendorOrderTracker/Views/Shared/Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Zvb3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/Views/Shared/_Layout.cshtml]
+[/Users/qianli/Desktop/projects/friday-projects/VendorOrderTracker.Solution/VendorOrderTracker/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/Views/Vendors/Delete.cshtml]
+[/Users/qianli/Desktop/projects/friday-projects/VendorOrderTracker.Solution/VendorOrderTracker/Views/Vendors/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9ycy9EZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/Views/Vendors/DeleteAll.cshtml]
+[/Users/qianli/Desktop/projects/friday-projects/VendorOrderTracker.Solution/VendorOrderTracker/Views/Vendors/DeleteAll.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9ycy9EZWxldGVBbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/Views/Vendors/Index.cshtml]
+[/Users/qianli/Desktop/projects/friday-projects/VendorOrderTracker.Solution/VendorOrderTracker/Views/Vendors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9ycy9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/Views/Vendors/New.cshtml]
+[/Users/qianli/Desktop/projects/friday-projects/VendorOrderTracker.Solution/VendorOrderTracker/Views/Vendors/New.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9ycy9OZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/qianli/Desktop/VendorOrderTracker.Solution/VendorOrderTracker/Views/Vendors/Show.cshtml]
+[/Users/qianli/Desktop/projects/friday-projects/VendorOrderTracker.Solution/VendorOrderTracker/Views/Vendors/Show.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVmVuZG9ycy9TaG93LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
